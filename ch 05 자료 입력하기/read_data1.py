@@ -10,7 +10,7 @@ print (np.shape(xy))
 
 # x값과 y값을 불러 온다.
 x_data = xy[: , 0] # 첫째 칼럼을 x_data로 저장
-y_data = xy[: , 2] # 둘째 칼럼을 y_data로 저장
+y_data = xy[: , 2] # 째 칼럼을 y_data로 저장
 
 plt.plot(x_data, y_data, 'bo', alpha= 0.3 )
 plt.show()
